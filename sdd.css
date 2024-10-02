@@ -1,0 +1,75 @@
+body {
+    font: sans-serif;
+    background-color:lightyellow;
+    margin: 0;
+    padding: 20px;   
+}
+
+.nn{
+    font-size: 25px;
+}
+
+#container {
+    max-width: 450px;
+    margin: 50px auto; 
+    padding: 20px;
+    border: 2px solid #00796b; 
+    border-radius: 10px;
+    background: yellow;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); 
+}
+
+#logoArea {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#logoArea img {
+    width: 100px;
+    height: auto;
+    border: none;
+    border-radius:10%;
+}
+
+.input-section {
+    margin-bottom: 20px;
+}
+
+.groupField {
+    margin-bottom: 15px;
+}
+
+.groupField label {
+    display: block;
+    margin-bottom: 6px;
+    color: black;
+    font-weight: bold;
+}
+
+.groupField input,
+.groupField select {
+    width: 100%;
+    padding: 10px; 
+    border: 1px solid #00796b;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#buttonArea {
+    text-align: center;
+}
+
+#buttonArea button {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 50px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#buttonArea button:hover {
+    background-color: yellow;
+}
